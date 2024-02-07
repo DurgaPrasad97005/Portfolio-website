@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(4, 4, 65);
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+}
+
+.portfolio {
+    font-size: 2rem;
+    padding-left: 110px;
+    color: rgb(167, 4, 4);
+}
+
+.port {
+    color: #ffd100;
+}
+
+.navigationBar a {
+    text-decoration: none;
+    font-size: larger;
+    margin: 0 30px;
+    transition: 0.2s;
+    padding: 3px 0px;
+}
+
+h1 {
+    letter-spacing: 0.1rem;
+}
+
+#contact {
+    background-color: white;
+    color: rgb(4, 4, 65);
+    padding: 3px 15px;
+    border-radius: 20px;
+}
+
+#contact:hover {
+    background-color: #ffd100;
+}
+
+.navigationBar a:hover {
+    color: rgb(167, 4, 4);
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    padding: 30px;
+}
+
+.myDetails {
+    width: 50%;
+}
+
+.myPhoto {
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.myName {
+    font-size: 3.0rem;
+    font-stretch: ultra-expanded;
+    letter-spacing: 0.2rem;
+}
+
+.myName span {
+    color: rgb(167, 4, 4);
+}
+
+
+/* About */
+.aboutContainer {
+    background-color: rgb(4, 4, 65);
+}
+
+.about {
+    width: 85%;
+    padding-left: 110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.about h2 {
+    color: rgb(167, 4, 4);
+}
+
+.about h2 span {
+    color: #ffd100;
+}
+
+/* Contact */
+.contactContainer {
+    background-color: rgb(4, 4, 65);
+    height: 100vh;
+}
+
+.contactBody {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.contactBody p {
+    padding: 5px 0;
+}
+
+.contactList {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv {
+    text-decoration: none;
+    background-color: rgb(61, 61, 223);
+    padding: 5px 20px 0px;
+    border-radius: 50px;
+}
+
+.contactList svg {
+    width: 20px;
+    margin: 3px 10px;
+    height: 20px;
+}
+
+.contactList > div > a {
+    text-decoration: none;
+}
+
+/* Work */
+.project {
+    display: flex;
+    width: 50%;
+    margin: 20px auto;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.project img {
+    width: 6rem;
+}
+
+.project div {
+    padding-left: 20px;
+}
+
+.project a {
+    text-decoration: none;
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: rgb(135, 135, 229);
+}
+
+/* Skills */
+.skillsBody {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.web-development, .programming {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(21, 21, 114);
+    border-radius: 10px;
+}
+
+.skillImage {
+    height: 150px;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 5rem;
+}
